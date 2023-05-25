@@ -1,0 +1,19 @@
+form {
+    background-image: linear-gradient(#bd09b7, #6b4cf5);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px black;
+}
+
+form input[id="email"], form input[id="clave"], form select[id="genero"]{
+    color: red;
+    width: 100%;
+    padding: 7px;
+}
+form input[type="submit"] {
+    padding: 5px 15px;
+    margin-left: 75%;
+}
